@@ -24,22 +24,22 @@
 
 8. In `println("You guessed: {}", guess)` the curly brackets is a placeholder.\
 
-```
-let x = 5;
-let y = 10;
+   ```
+   let x = 5;
+   let y = 10;
 
-println!("x = {} and y = {}", x, y);
-```
+   println!("x = {} and y = {}", x, y);
+   ```
 
-Any time you want to a variable to pass, you write out the string and use curly brackets as a placeholder to the variable and add the variables at the end.
+   Any time you want to a variable to pass, you write out the string and use curly brackets as a placeholder to the variable and add the variables at the end.
 
 9. Update Command
 
-```
-cargo update
-```
+   ```
+   cargo update
+   ```
 
-When updating version, the update command will only update to the latest 0.8.x. If you want to update to a 0.9.x version you will have to specify that in the dependencies in Cargo.toml file then run `cargo build` and cargo will update to the new version you specified.
+   When updating version, the update command will only update to the latest 0.8.x. If you want to update to a 0.9.x version you will have to specify that in the dependencies in Cargo.toml file then run `cargo build` and cargo will update to the new version you specified.
 
 10. You won’t just know which traits to use and which methods and functions to call from a crate. Instructions for using a crate are in each crate’s documentation.You can run the `cargo doc --open` command, which will build documentation provided by all of your dependencies locally and open it in your browser. For example, if you’re interested in other functionality in the rand crate run `cargo doc --open` and click rand in the sidebar on the left.
 
